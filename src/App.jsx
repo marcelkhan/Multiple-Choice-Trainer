@@ -13,7 +13,7 @@ function App() {
       : 'light'
   })
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [selectedIndex, setSelectedIndex] = useState(null)
+  const [selectedIndices, setSelectedIndices] = useState([])
   const [showResult, setShowResult] = useState(false)
   const [score, setScore] = useState(0)
   const [answers, setAnswers] = useState([])
@@ -33,13 +33,17 @@ function App() {
   }, [answers.length, totalQuestions])
 
   const handleCheckAnswer = () => {
-    if (selectedIndex === null || showResult) return
-    const isCorrect = selectedIndex === currentQuestion.correctIndex
+    if (selectedIndices.length === 0 || showResult) return
+    const isCorrect =
+      selectedIndices.length === currentQuestion.correctIndices.length &&
+      selectedIndices.every((index) =>
+        currentQuestion.correctIndices.includes(index)
+      )
     setShowResult(true)
     setScore((prev) => prev + (isCorrect ? 1 : 0))
     setAnswers((prev) => [
       ...prev,
-      { questionId: currentQuestion.id, selectedIndex, isCorrect }
+      { questionId: currentQuestion.id, selectedIndices, isCorrect }
     ])
   }
 
@@ -47,13 +51,13 @@ function App() {
     if (!showResult) return
     if (isLastQuestion) return
     setCurrentIndex((prev) => prev + 1)
-    setSelectedIndex(null)
+    setSelectedIndices([])
     setShowResult(false)
   }
 
   const handleRestart = () => {
     setCurrentIndex(0)
-    setSelectedIndex(null)
+    setSelectedIndices([])
     setShowResult(false)
     setScore(0)
     setAnswers([])
@@ -114,13 +118,16 @@ function App() {
 
         <section className="card">
           <h2>{currentQuestion.question}</h2>
+          {currentQuestion.correctIndices.length > 1 && (
+            <p className="selection-hint">Mehrfachauswahl möglich</p>
+          )}
           <div className="options">
             {currentQuestion.options.map((option, index) => {
-              const isSelected = selectedIndex === index
+              const isSelected = selectedIndices.includes(index)
               const isCorrect =
-                showResult && index === currentQuestion.correctIndex
+                showResult && currentQuestion.correctIndices.includes(index)
               const isIncorrect =
-                showResult && isSelected && index !== currentQuestion.correctIndex
+                showResult && isSelected && !currentQuestion.correctIndices.includes(index)
 
               return (
                 <button
@@ -129,7 +136,14 @@ function App() {
                   className={`option${isSelected ? ' selected' : ''}${
                     isCorrect ? ' correct' : ''
                   }${isIncorrect ? ' incorrect' : ''}`}
-                  onClick={() => !showResult && setSelectedIndex(index)}
+                  onClick={() =>
+                    !showResult &&
+                    setSelectedIndices((prev) =>
+                      prev.includes(index)
+                        ? prev.filter((item) => item !== index)
+                        : [...prev, index]
+                    )
+                  }
                 >
                   <span className="option-label">
                     {String.fromCharCode(65 + index)}
@@ -143,12 +157,18 @@ function App() {
           {showResult && (
             <div
               className={`feedback ${
-                selectedIndex === currentQuestion.correctIndex
+                selectedIndices.length === currentQuestion.correctIndices.length &&
+                selectedIndices.every((index) =>
+                  currentQuestion.correctIndices.includes(index)
+                )
                   ? 'success'
                   : 'error'
               }`}
             >
-              {selectedIndex === currentQuestion.correctIndex
+              {selectedIndices.length === currentQuestion.correctIndices.length &&
+              selectedIndices.every((index) =>
+                currentQuestion.correctIndices.includes(index)
+              )
                 ? 'Richtig!'
                 : 'Leider falsch.'}
               <p>{currentQuestion.explanation}</p>
@@ -160,7 +180,7 @@ function App() {
               type="button"
               className="primary"
               onClick={handleCheckAnswer}
-              disabled={selectedIndex === null || showResult}
+              disabled={selectedIndices.length === 0 || showResult}
             >
               Antwort prüfen
             </button>

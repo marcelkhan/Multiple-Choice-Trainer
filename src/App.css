@@ -136,6 +136,12 @@
   color: var(--text);
 }
 
+.selection-hint {
+  margin: -10px 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
 .options {
   display: grid;
   gap: 12px;

@@ -1,14 +1,14 @@
 const QUESTIONS = [
   {
     id: 1,
-    question: 'Welche Aussage über HTTP ist korrekt?',
+    question: 'Welche Reaktionen sind typisch, wenn Menschen einen Misserfolg oder eine Niederlage erleben?',
     options: [
       'HTTP ist zustandslos und nutzt TCP als Transport.',
       'HTTP verschlüsselt Daten standardmäßig.',
       'HTTP benötigt immer eine WebSocket-Verbindung.',
       'HTTP ist ein Dateisystem-Protokoll.'
     ],
-    correctIndex: 0,
+    correctIndices: [0],
     explanation:
       'HTTP ist ein zustandsloses Protokoll, das üblicherweise über TCP läuft.'
   },
@@ -21,7 +21,7 @@ const QUESTIONS = [
       'Er rendert eine Komponente asynchron.',
       'Er erstellt globale CSS-Variablen.'
     ],
-    correctIndex: 0,
+    correctIndices: [0],
     explanation:
       'useState speichert lokalen State und liefert eine Setter-Funktion.'
   },
@@ -34,7 +34,7 @@ const QUESTIONS = [
       'Flexbox ersetzt JavaScript-Layout komplett.',
       'Flexbox benötigt immer Grid als Parent.'
     ],
-    correctIndex: 0,
+    correctIndices: [0],
     explanation:
       'Flexbox ist ideal für eindimensionale Layouts mit Haupt- und Querachse.'
   },
@@ -47,7 +47,7 @@ const QUESTIONS = [
       'Bilder komprimieren.',
       'Unit-Tests automatisch schreiben.'
     ],
-    correctIndex: 0,
+    correctIndices: [0],
     explanation:
       'Git speichert Änderungen an Dateien und ermöglicht Zusammenarbeit.'
   },
@@ -60,9 +60,23 @@ const QUESTIONS = [
       'Just Simple Object Names',
       'Joined Script Object Network'
     ],
-    correctIndex: 0,
+    correctIndices: [0],
     explanation:
       'JSON ist ein textbasiertes Datenformat für strukturierte Daten.'
+  },
+  {
+    id: 6,
+    question: 'Welche Aussagen über HTML sind korrekt?',
+    options: [
+      'HTML strukturiert Inhalte auf Webseiten.',
+      'HTML steht für HyperText Markup Language.',
+      'HTML definiert ausschließlich das Styling einer Seite.',
+      'HTML verwendet Tags wie <section> und <article>.',
+      'HTML ist eine Programmiersprache.'
+    ],
+    correctIndices: [0, 1, 3],
+    explanation:
+      'HTML beschreibt Struktur und Semantik, nutzt Markup-Tags und steht für HyperText Markup Language.'
   }
 ]
 
