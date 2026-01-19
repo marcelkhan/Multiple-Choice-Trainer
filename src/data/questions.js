@@ -222,6 +222,76 @@ const QUESTIONS = [
     correctIndices: [0, 1],
     explanation:
       'Regelmäßige körperliche Aktivität verbessert die Durchblutung des Gehirns und steigert Aufmerksamkeit und Konzentration. An Tagen mit mehr Bewegung ist die kognitive Leistungsfähigkeit messbar höher.'
+  },
+  {
+    id: 17,
+    topic: 'Informatik & Sport wie Bewegung den Code besser macht',
+    question: 'Welche Aussagen zu physischen und mentalen Belastungen im Informatik-Alltag sind fachlich korrekt?',
+    options: [
+      'Beschwerden des Muskel-Skelett-Systems entstehen nicht nur durch Fehlhaltungen, sondern auch durch fehlende ausgleichende Bewegung.',
+      'Mentale Belastung wirkt sich ausschließlich auf die psychische Gesundheit aus, nicht jedoch auf körperliche Symptome.',
+      'Augenbeschwerden bei Bildschirmarbeit lassen sich primär auf altersbedingte Sehschwächen zurückführen.',
+      'Dauerhafte kognitive Beanspruchung kann in Kombination mit Bewegungsmangel sowohl mentale als auch körperliche Beschwerden begünstigen.'
+    ],
+    correctIndices: [0, 3],
+    explanation:
+      'Beschwerden des Muskel-Skelett-Systems entstehen nicht nur durch Fehlhaltungen, sondern auch durch fehlende ausgleichende Bewegung. Dauerhafte kognitive Beanspruchung kann in Kombination mit Bewegungsmangel sowohl mentale als auch körperliche Beschwerden begünstigen.'
+  },
+  {
+    id: 18,
+    topic: 'Informatik & Sport wie Bewegung den Code besser macht',
+    question: 'Welche Schlussfolgerungen lassen sich aus wissenschaftlichen Studien zum Zusammenhang von Bewegung und kognitiver Leistungsfähigkeit ziehen?',
+    options: [
+      'Sowohl akute als auch regelmäßige körperliche Aktivität können Aufmerksamkeit und Reaktionsgeschwindigkeit positiv beeinflussen.',
+      'Positive Effekte treten ausschließlich bei sehr intensiven Trainingseinheiten auf.',
+      'Verbesserungen der kognitiven Leistung stehen im Zusammenhang mit einer erhöhten Durchblutung.',
+      'Bewegung wirkt nur indirekt auf kognitive Prozesse, indem sie den Schlaf verbessert, nicht jedoch unmittelbar.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Sowohl akute als auch regelmäßige körperliche Aktivität können Aufmerksamkeit und Reaktionsgeschwindigkeit positiv beeinflussen. Verbesserungen der kognitiven Leistung stehen im Zusammenhang mit einer erhöhten Durchblutung.'
+  },
+  {
+    id: 19,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Welche Risiken bringt KI mit sich?',
+    options: [
+      'Fehleranfälligkeit',
+      'Niedrige Verfügbarkeit',
+      'Mangelnde Intuition',
+      'Abhängigkeiten von KI-Systemen'
+    ],
+    correctIndices: [0, 3],
+    explanation:
+      'KI-Systeme können fehleranfällig sein und Abhängigkeiten schaffen, die kritisch betrachtet werden müssen.'
+  },
+  {
+    id: 20,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Welche Möglichkeiten bringt KI mit sich?',
+    options: [
+      'Datenanalyse & Mustererkennung',
+      'Automatisierung von Routineaufgaben',
+      'Das Übernehmen von wichtigen Entscheidungen',
+      'Kostenreduktion'
+    ],
+    correctIndices: [0, 1, 3],
+    explanation:
+      'KI kann Daten analysieren, Routineaufgaben automatisieren und zur Kostenreduktion beitragen.'
+  },
+  {
+    id: 21,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Welche Psychologischen und soziale Auswirkungen hat KI auf den Menschen?',
+    options: [
+      'Vollständige Reduktion von Stress durch den Einsatz von KI',
+      'Angst vor Arbeitsplatzverlust',
+      'Entfremdung und Sinnverlust der praktizierten Arbeit',
+      'Steigerung der Arbeitszufriedenheit'
+    ],
+    correctIndices: [1, 2],
+    explanation:
+      'Der Einsatz von KI kann Ängste vor Arbeitsplatzverlust und Gefühle der Entfremdung hervorrufen.'
   }
 ]
 
