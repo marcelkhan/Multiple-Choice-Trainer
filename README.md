@@ -1,6 +1,18 @@
 # Multiple Choice Trainer
 
-Ein schlanker Multiple-Choice-Trainer mit React und Vite. Du kannst Fragen beantworten, Feedback erhalten und am Ende deine Punktzahl sehen.
+Ein moderner Multiple-Choice-Trainer mit React und Vite. Beantworte Fragen, erhalte direktes Feedback und tracke deinen Fortschritt.
+
+[Live-Demo](https://marcelkhan.github.io/Multiple-Choice-Trainer/)
+
+## Inhalte
+
+- [Features](#features)
+- [Schnellstart](#schnellstart)
+- [Build](#build)
+- [Fragen anpassen](#fragen-anpassen)
+- [Styling & Theme (Light/Dark)](#styling--theme-lightdark)
+- [Deployment](#deployment)
+- [Hinweise zu Node.js](#hinweise-zu-nodejs)
 
 ## Features
 
@@ -8,6 +20,7 @@ Ein schlanker Multiple-Choice-Trainer mit React und Vite. Du kannst Fragen beant
 - Fortschrittsanzeige und Punktestand
 - Direktes Feedback mit Erklärung
 - Neustart nach der letzten Frage
+- Light/Dark Mode mit Theme-Toggle
 
 ## Schnellstart
 
@@ -83,6 +96,11 @@ npm run preview
 ```
 
 Für GitHub Pages, Netlify oder Vercel kannst du den `dist/`-Ordner als Build-Output verwenden.
+
+## Tech-Stack
+
+- React + Vite
+- CSS (Custom Properties)
 
 ## Hinweise zu Node.js
 
