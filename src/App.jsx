@@ -1,13 +1,27 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import QUESTIONS from './data/questions'
 import './App.css'
 
 function App() {
+  const [theme, setTheme] = useState(() => {
+    const savedTheme = localStorage.getItem('theme')
+    if (savedTheme === 'light' || savedTheme === 'dark') {
+      return savedTheme
+    }
+    return window.matchMedia('(prefers-color-scheme: dark)').matches
+      ? 'dark'
+      : 'light'
+  })
   const [currentIndex, setCurrentIndex] = useState(0)
   const [selectedIndex, setSelectedIndex] = useState(null)
   const [showResult, setShowResult] = useState(false)
   const [score, setScore] = useState(0)
   const [answers, setAnswers] = useState([])
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    localStorage.setItem('theme', theme)
+  }, [theme])
 
   const totalQuestions = QUESTIONS.length
   const currentQuestion = QUESTIONS[currentIndex]
@@ -49,6 +63,8 @@ function App() {
     return null
   }
 
+  const isDark = theme === 'dark'
+
   return (
     <div className="app">
       <div className="container">
@@ -57,11 +73,27 @@ function App() {
             <p className="eyebrow">Multiple Choice Trainer</p>
             <h1>Trainiere dein Wissen</h1>
           </div>
-          <div className="score">
-            <span className="badge">Punkte</span>
-            <strong>
-              {score} / {totalQuestions}
-            </strong>
+          <div className="header-actions">
+            <button
+              type="button"
+              className="theme-toggle"
+              onClick={() => setTheme(isDark ? 'light' : 'dark')}
+              aria-pressed={isDark}
+              aria-label={isDark ? 'Zu hellem Modus wechseln' : 'Zu dunklem Modus wechseln'}
+            >
+              <span className="theme-icon" aria-hidden="true">
+                {isDark ? '☀️' : '🌙'}
+              </span>
+              <span className="theme-label">
+                {isDark ? 'Light Mode' : 'Dark Mode'}
+              </span>
+            </button>
+            <div className="score">
+              <span className="badge">Punkte</span>
+              <strong>
+                {score} / {totalQuestions}
+              </strong>
+            </div>
           </div>
         </header>
 
