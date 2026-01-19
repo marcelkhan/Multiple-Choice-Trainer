@@ -97,7 +97,8 @@ const QUESTIONS = [
     explanation:
       'Lernen ist ein Prozess, bei dem sich Wissen oder Verhalten durch Erfahrung und Übung dauerhaft verändert.'
   },
-  { id: 8,
+  { 
+    id: 8,
     topic: 'Lernen',
     question: 'Welche Aussagen zum Gedächtnis treffen zu?' ,
     options: [
@@ -110,7 +111,8 @@ const QUESTIONS = [
     explanation:
       'Das Gedächtnis arbeitet wie ein Netzwerk, und Informationen werden besser gespeichert, wenn Bilder und Emotionen genutzt werden.'
   },
-  { id: 9,
+  { 
+    id: 9,
     topic: 'Lernen',
     question: 'Welche Aussagen zu Mnemotechniken sind richtig?',
     options: [
@@ -122,6 +124,104 @@ const QUESTIONS = [
     correctIndices: [0, 1],
     explanation:
       'Mnemotechniken unterstützen das Lernen durch Bilder, Sprache und Struktur. Die Loci-Methode ist eine visuelle Lerntechnik.'
+  },
+  {
+    id: 10,
+    topic: 'Gesunde und unterstützende Ernährung',
+    question: 'Welche Maßnahmen gehören zu achtsamen Essen?',
+    options: [
+      'Jeden Bissen bewusst wahrnehmen und langsam kauen.',
+      'Mahlzeiten auslassen, um Kalorien zu sparen.',
+      'Langsames kauen und konzentriertes Essen unterstützt die Verdauung.',
+      'Cookies nach jeder Mahlzeit sind gesund.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Achtsames Essen beinhaltet langsames Kauen, Essen ohne Ablenkungen und das Beachten des Hungergefühls.'
+  },
+  {
+    id: 11,
+    topic: 'Gesunde und unterstützende Ernährung',
+    question: 'Welche der folgenden Ursachen kann zu einer ungesunden Ernährung führen?',
+    options: [
+      'Zeit- & Stressfaktoren',
+      'Emotionaler Auslöser',
+      'Regelmäßige Bewegung',
+      'Fehlendes Wissen'
+    ],
+    correctIndices: [0, 1, 3],
+    explanation:
+      'Stress und Zeitmangel sowie übermäßiger Konsum von Fast Food und zuckerhaltigen Getränken können zu einer ungesunden Ernährung führen.'
+  },
+  {
+    id: 12,
+    topic: 'Gesunde und unterstützende Ernährung',
+    question: 'Welcher Nährstoff wird besonders mit "Brain-Food" in Verbindung gebracht?',
+    options: [
+      'Omega-3-Fettsäuren',
+      'Vitamin-D',
+      'Natrium',
+      'Zucker'
+    ],
+    correctIndices: [0],
+    explanation:
+      'Omega-3-Fettsäuren sind besonders wichtig für die Gehirnfunktion und werden oft als "Brain-Food" bezeichnet.'
+  },
+  {
+    id: 13,
+    topic: 'Gesunder Schlaf. Ein Überblick mit Bezug zur Informatik',
+    question: 'Welche der hier genannten Begriffe sind Schlafzyklen?',
+    options: [
+      'Der Tiefschlaf',
+      'Die Abends-Phase',
+      'Die Ram-Phase-Schlaf',
+      'Die Rem-Phase'
+    ],
+    correctIndices: [0, 3],
+    explanation:
+      'Der Tiefschlaf und die Rem-Phase sind wichtige Schlafzyklen für die Erholung des Körpers und Geistes.'
+  },
+  {
+    id: 14,
+    topic: 'Gesunder Schlaf. Ein Überblick mit Bezug zur Informatik',
+    question: 'Welche dieser Aussagen sind falsch.',
+    options: [
+      'Ein Kind braucht in der Regel mehr schlaf als ein Jugendlicher.',
+      'Ein Erwachsener braucht in der Regel mehr schlaf als ein Kind.',
+      'Ein Jugendlicher braucht in der Regel mehr schlaf als ein Erwachsener.',
+      'Alle Kinder brauchen IMMER die selbe Menge an schlaf.'
+    ],
+    correctIndices: [1, 3],
+    explanation:
+      'Ein Erwachsener braucht in der Regel weniger Schlaf als ein Kind. Die Schlafbedürfnisse variieren individuell und sind nicht immer konstant.'
+  },
+  {
+    id: 15,
+    topic: 'Gesunder Schlaf. Ein Überblick mit Bezug zur Informatik',
+    question: 'Warum ist Gesunder Schlaf wichtig?',
+    options: [
+      'Damit es die Konzentration und Reaktionsgeschwindigkeit Verbessert',
+      'Damit die Gedanken morgens wieder in der richtigen Reihenfolge sind',
+      'Damit die Augen nicht vergessen, wie Blinzeln funktioniert',
+      'Damit das Gehirn nicht im Hintergrund weiterläuft'
+    ],
+    correctIndices: [0],
+    explanation:
+      'Gesunder Schlaf ist wichtig, um die Konzentration, Reaktionsgeschwindigkeit und das allgemeine Wohlbefinden zu verbessern.'
+  },
+  {
+    id: 16,
+    topic: 'Informatik & Sport wie Bewegung den Code besser macht',
+    question: 'Welche Effekte regelmäßiger körperlicher Aktivität auf die kognitiveLeistungsfähigkeit sind wissenschaftlich belegt?',
+    options: [
+      'Bewegung verbessert die Durchblutung des Gehirns und steigert Aufmerksamkeit und Konzentration.',
+      'An Tagen mit mehr Bewegung ist die kognitive Leistungsfähigkeit messbar höher.',
+      'Körperliche Aktivität wirkt sich nur langfristig, nicht aber kurzfristig auf kognitive Prozesse aus.',
+      'Sport reduziert die Denkfähigkeit, da er mentale Ressourcen verbraucht.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Regelmäßige körperliche Aktivität verbessert die Durchblutung des Gehirns und steigert Aufmerksamkeit und Konzentration. An Tagen mit mehr Bewegung ist die kognitive Leistungsfähigkeit messbar höher.'
   }
 ]
 
