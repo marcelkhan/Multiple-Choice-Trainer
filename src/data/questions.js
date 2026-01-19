@@ -292,6 +292,188 @@ const QUESTIONS = [
     correctIndices: [1, 2],
     explanation:
       'Der Einsatz von KI kann Ängste vor Arbeitsplatzverlust und Gefühle der Entfremdung hervorrufen.'
+  },
+  {
+    id: 22,
+    topic: 'Ziele setzen und erreichen',
+    question: 'Welche Aussagen zur SMART-Formel sind korrekt?',
+    options: [
+      'SMART-Ziele sind spezifisch, messbar, attraktiv bzw. realistisch und terminiert.',
+      'Die SMART-Formel dient dazu, Ziele nach ihrer Wichtigkeit zu gewichten.',
+      'Die SMART-Formel hilft dabei, Ziele klarer zu formulieren und überprüfbar zu machen.',
+      'Ein Ziel kann auch dann als SMART gelten, wenn nur zwei der fünf Kriterien erfüllt sind.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Die SMART-Formel steht für Spezifisch, Messbar, Attraktiv, Realistisch und Terminiert.'
+  },
+  {
+    id: 23,
+    topic: 'Ziele setzen und erreichen',
+    question: 'Welche Aussagen zur Zielerreichung und Umsetzung treffen zu?',
+    options: [
+      'Die Zerlegung großer Ziele in kleine Teilziele kann die Motivation erhöhen.',
+      'Große Ziele sollten möglichst unkonkret bleiben, um Flexibilität zu gewährleisten.',
+      'Der Fokus auf konkrete Handlungen kann helfen, die Lücke zwischen Absicht und Verhalten zu schließen.',
+      'Routinen spielen bei der langfristigen Zielverfolgung keine Rolle.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Die Zerlegung großer Ziele in kleine Teilziele und der Fokus auf konkrete Handlungen unterstützen die Zielerreichung.'
+  },
+  {
+    id: 24,
+    topic: 'Ziele setzen und erreichen',
+    question: 'Welche Aussagen zur Rolle von Routinen bei der Zielerreichung sind richtig?',
+    options: [
+      'Routinen reduzieren den Bedarf an bewusster Willenskraft.',
+      'Routinen entstehen ausschließlich durch hohe Motivation.',
+      'Wiederholtes Verhalten kann langfristig automatisiert werden.',
+      'Routinen sind nur bei sehr einfachen Zielen sinnvoll.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Routinen reduzieren den Bedarf an bewusster Willenskraft und wiederholtes Verhalten kann langfristig automatisiert werden.'
+  },
+  {
+    id: 25,
+    topic: 'Zeitmanagement',
+    question: 'Welche Aussagen zum Thema Zeitmanagement sind korrekt?',
+    options: [
+      'Zeitmanagement bedeutet nicht, mehr Zeit zu haben, sondern bewusste Entscheidungen über Prioritäten zu treffen.',
+      'Zeitmanagement besteht hauptsächlich darin, möglichst viele Aufgaben parallel zu erledigen.',
+      'Zeitprobleme entstehen häufig durch Entscheidungsdruck und nicht durch tatsächlichen Zeitmangel.',
+      'Effektives Zeitmanagement führt dazu, dass Stress vollständig vermieden werden kann.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Zeitmanagement bedeutet, bewusste Entscheidungen über Prioritäten zu treffen. Zeitprobleme entstehen häufig durch Entscheidungsdruck und nicht durch tatsächlichen Zeitmangel.'
+  },
+  {
+    id: 26,
+    topic: 'Zeitmanagement',
+    question: 'Welche Aussagen zum Pareto-Prinzip (80/20-Regel) treffen zu?',
+    options: [
+      'Ein kleiner Teil des Aufwands führt häufig zu einem großen Teil der Ergebnisse.',
+      'Das Pareto-Prinzip besagt, dass alle Aufgaben gleich wichtig sind.',
+      'Das Prinzip unterstützt die Fokussierung auf besonders relevante Aufgaben.',
+      'Das Pareto-Prinzip fordert, alle Aufgaben mit maximaler Effizienz zu bearbeiten.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Das Pareto-Prinzip besagt, dass ein kleiner Teil des Aufwands häufig zu einem großen Teil der Ergebnisse führt und unterstützt die Fokussierung auf besonders relevante Aufgaben.'
+  },
+  {
+    id: 27,
+    topic: 'Zeitmanagement',
+    question: 'Welche Aussagen zum Eisenhower-Prinzip sind richtig?',
+    options: [
+      'Aufgaben werden nach den Kriterien „wichtig“ und „dringend“ eingeordnet.',
+      'Aufgaben, die wichtig, aber nicht dringend sind, sollten geplant werden.',
+      'Dringende Aufgaben sind immer automatisch auch wichtige Aufgaben.',
+      'Aufgaben, die weder wichtig noch dringend sind, sollten priorisiert erledigt werden.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Das Eisenhower-Prinzip ordnet Aufgaben nach Wichtigkeit und Dringlichkeit ein. Wichtige, aber nicht dringende Aufgaben sollten geplant werden.'
+  },
+  {
+    id: 28,
+    topic: '17 Ziele für Nachhaltige Entwicklung',
+    question: 'Wie hoch war 2024 der Anteil an Menschen der als "Offline" zählt.',
+    options: [
+      '0 - 15% Der Menschen sind Offline',
+      '16 - 25% Der Menschen sind Offline',
+      '26 - 35% Der Menschen sind Offline',
+      '45 - 60% Der Menschen sind Offline'
+    ],
+    correctIndices: [2],
+    explanation:
+      'Im Jahr 2024 sind etwa 30% der Weltbevölkerung offline und haben keinen Zugang zum Internet.'
+  },
+  {
+    id: 29,
+    topic: '17 Ziele für Nachhaltige Entwicklung',
+    question: 'Welche der folgenden Energie Produktionsarten sind im Verhältnis zu den Stromgestehungskosten am günstigen (Einheit:"€Cent/kWh" )',
+    options: [
+      'Kernkraft',
+      'Biogas',
+      'Steinkohle',
+      'Photovoltaikanlagen (Solaranlagen)',
+    ],
+    correctIndices: [3],
+    explanation:
+      'Photovoltaikanlagen (Solaranlagen) sind im Verhältnis zu den Stromgestehungskosten am günstigsten.'
+  },
+  {
+    id: 30,
+    topic: '17 Ziele für Nachhaltige Entwicklung',
+    question: 'Welches Beispiel zeigt besonders deutlich, dass globale Partnerschaft und internationales abgestimmtes Handeln Wirkung hat im Bezug zu den Besprochenen Beispiel vom 1. Dezember 2025?',
+    options: [
+      'Der Klimawandel konnte durch nationale Alleingänge der USA gestoppt werden',
+      'Die Ozonschicht über der Antarktis hat sich durch das Montreal Protokoll ungewöhnlich früh geschlossen',
+      'Die Übersäuerung der Meere konnte durch gemeinsame Investitionen stark eingeschränkt werden.',
+      'Ausschließlich durch technologische Innovation konnte der Schutz der Ozonschicht erreicht werden.'
+    ],
+    correctIndices: [1],
+    explanation:
+      'Die Ozonschicht über der Antarktis hat sich durch das Montreal Protokoll ungewöhnlich früh geschlossen, was die Wirksamkeit globaler Partnerschaften zeigt.'
+  },
+  {
+    id: 31,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Wie heißen die 3 Schlüsselkomponenten von KI?',
+    options: [
+      'Inputdaten',
+      'Supervised Learning',
+      'ML-Algorithmus',
+      'Output-Entscheidung',
+    ],
+    correctIndices: [0, 2, 3],
+    explanation:
+      'Die 3 Schlüsselkomponenten von KI sind Inputdaten, ML-Algorithmus und Output-Entscheidung.'
+  },
+  {
+    id: 32,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Wozu neigen Menschen, wenn diese mit KI, Computern & Robotern interagieren?',
+    options: [
+      'Kuscheln',
+      'Spielen',
+      'Vermenschlichung',
+      'Liebesbeziehung',
+    ],
+    correctIndices: [2],
+    explanation:
+      'Menschen neigen dazu, KI, Computer und Roboter zu vermenschlichen, indem sie ihnen menschliche Eigenschaften zuschreiben.'
+  },
+  {
+    id: 33,
+    topic: 'Ethischer und kritischer Umgang mit KI',
+    question: 'Von wem müssen alles die Interessen gewahrt werden, um ein Gleichgewicht bei der Erschaffung einer KI zu ermöglichen?',
+    options: [
+      'Regierung',
+      'Unternehmen',
+      'Die einzelne Person',
+      'Die Gesellschaft'
+    ],
+    correctIndices: [1, 2, 3],
+    explanation:
+      'Die Interessen von Unternehmen, einzelnen Personen und der Gesellschaft müssen gewahrt werden, um ein Gleichgewicht bei der Erschaffung einer KI zu ermöglichen.'
+  },
+  {
+    id: 34,
+    topic: 'Change Management',
+    question: 'Welche der folgenden Punkte sind Teil der Kübler-Ross-Change-Kurve?',
+    options: [
+      'Frustration',
+      'Entscheidung',
+      'Assimilation',
+      'Experimentieren'
+    ],
+    correctIndices: [0, 1, 3],
+    explanation:
+      'Die Kübler-Ross-Change-Kurve umfasst die Phasen Frustration, Entscheidung und Experimentieren.'
   }
 ]
 
