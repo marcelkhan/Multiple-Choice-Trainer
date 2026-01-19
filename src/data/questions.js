@@ -3,14 +3,14 @@ const QUESTIONS = [
     id: 1,
     question: 'Welche Reaktionen sind typisch, wenn Menschen einen Misserfolg oder eine Niederlage erleben?',
     options: [
-      'HTTP ist zustandslos und nutzt TCP als Transport.',
-      'HTTP verschlüsselt Daten standardmäßig.',
-      'HTTP benötigt immer eine WebSocket-Verbindung.',
-      'HTTP ist ein Dateisystem-Protokoll.'
+      'Emotionale Reaktionen wie Enttäuschung, Frustration oder Selbstzweifel',
+      'Kognitive Reaktionen wie Grübeln oder die Suche nach Ursachen',
+      'Körperliche Reaktionen wie Anspannung oder Erschöpfung',
+      'Ausschließlich rationale und emotionsfreie Verarbeitung der Situation'
     ],
-    correctIndices: [0],
+    correctIndices: [0, 1, 2],
     explanation:
-      'HTTP ist ein zustandsloses Protokoll, das üblicherweise über TCP läuft.'
+      'Typische Reaktionen auf Misserfolg umfassen emotionale, kognitive und körperliche Aspekte.'
   },
   {
     id: 2,
