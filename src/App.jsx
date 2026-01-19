@@ -117,6 +117,9 @@ function App() {
         </section>
 
         <section className="card">
+          {currentQuestion.topic && (
+            <p className="topic">{currentQuestion.topic}</p>
+          )}
           <h2>{currentQuestion.question}</h2>
           {currentQuestion.correctIndices.length > 1 && (
             <p className="selection-hint">Mehrfachauswahl möglich</p>

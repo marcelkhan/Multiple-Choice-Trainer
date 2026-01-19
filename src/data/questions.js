@@ -1,6 +1,7 @@
 const QUESTIONS = [
   {
     id: 1,
+    topic: 'Umgang mit Niederlagen und Rückschritten',
     question: 'Welche Reaktionen sind typisch, wenn Menschen einen Misserfolg oder eine Niederlage erleben?',
     options: [
       'Emotionale Reaktionen wie Enttäuschung, Frustration oder Selbstzweifel',
@@ -14,6 +15,7 @@ const QUESTIONS = [
   },
   {
     id: 2,
+    topic: 'React',
     question: 'Was macht der React-Hook useState?',
     options: [
       'Er verwaltet lokalen Komponenten-State.',
@@ -27,6 +29,7 @@ const QUESTIONS = [
   },
   {
     id: 3,
+    topic: 'CSS',
     question: 'Welche Aussage zu CSS Flexbox stimmt?',
     options: [
       'Flexbox richtet Elemente entlang einer Haupt- und Querachse aus.',
@@ -40,6 +43,7 @@ const QUESTIONS = [
   },
   {
     id: 4,
+    topic: 'Git',
     question: 'Was ist der Zweck von Git?',
     options: [
       'Versionsverwaltung von Code und Dateien.',
@@ -53,6 +57,7 @@ const QUESTIONS = [
   },
   {
     id: 5,
+    topic: '',
     question: 'Wofür steht JSON?',
     options: [
       'JavaScript Object Notation',
@@ -66,6 +71,7 @@ const QUESTIONS = [
   },
   {
     id: 6,
+    topic: 'HTML',
     question: 'Welche Aussagen über HTML sind korrekt?',
     options: [
       'HTML strukturiert Inhalte auf Webseiten.',
