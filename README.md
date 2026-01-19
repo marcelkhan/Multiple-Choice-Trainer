@@ -1,16 +1,32 @@
-# React + Vite
+# Multiple Choice Trainer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ein schlanker Multiple-Choice-Trainer mit React und Vite. Du kannst Fragen beantworten, Feedback erhalten und am Ende deine Punktzahl sehen.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Moderne, responsive UI
+- Fortschrittsanzeige und Punktestand
+- Direktes Feedback mit Erklärung
+- Neustart nach der letzten Frage
 
-## React Compiler
+## Schnellstart
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+npm run preview
+```
+
+## Fragen anpassen
+
+Die Fragen befinden sich in `src/App.jsx` im Array `QUESTIONS`. Ergänze dort deine eigenen Fragen, Antworten und Erklärungen.
+
+## Hinweise zu Node.js
+
+Vite 7 benötigt Node.js **20.19+** oder **22.12+**. Wenn du eine ältere Version nutzt, bitte Node aktualisieren.
