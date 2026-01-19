@@ -474,6 +474,202 @@ const QUESTIONS = [
     correctIndices: [0, 1, 3],
     explanation:
       'Die Kübler-Ross-Change-Kurve umfasst die Phasen Frustration, Entscheidung und Experimentieren.'
+  },
+  {
+    id: 35,
+    topic: 'Change Management',
+    question: 'Was ist für die innere Haltung wichtig beim Veränderungsprozess?',
+    options: [
+      'Der Aufbau von Routinen',
+      'Akzeptanz der Emotionen',
+      'Reframing',
+      'Den Circle of Control nicht in Betracht zu ziehen'
+    ],
+    correctIndices: [1, 2],
+    explanation:
+      'Wichtig ist die Akzeptanz der Emotionen und Reframing.'
+  },
+  {
+    id: 36,
+    topic: 'Change Management',
+    question: 'Was beschreibt das Change Management?',
+    options: [
+      'Widerstand ist grundsätzlich negativ und schnellstmöglichst zu bekämpfen.',
+      'die bewusste Gestaltung eines Veränderungsprozesses',
+      'die Wichtigkeit, den Fokus auf Struktur und Ereignisse zu legen.',
+      'Veränderung auf einen zukommen zu lassen, statt es kontrollieren zu wollen.'
+    ],
+    correctIndices: [1],
+    explanation:
+      'Change Management beschreibt die bewusste Gestaltung eines Veränderungsprozesses.'
+  },
+  {
+    id: 37,
+    topic: 'Digital Detox',
+    question: 'Welche Aussagen in Bezug auf das Thema Digital Detox sind richtig?',
+    options: [
+      'Digital Detox bedeutet, dass man nie wieder Social Media verwendet.',
+      'Digital Detox ist eine bewusste, zeitliche begrenzte Pause von digitalen Medien.',
+      'Digital Detox verdeutlicht, dass Technik allgemein schlecht ist.',
+      'Das Ziel von Digital Detox ist die Schaffung eines Gleichgewichts zwischen Online- und Offline-Leben.'
+    ],
+    correctIndices: [1, 3],
+    explanation:
+      'Digital Detox ist eine bewusste, zeitlich begrenzte Pause von digitalen Medien mit dem Ziel, ein Gleichgewicht zwischen Online- und Offline-Leben zu schaffen.'
+  },
+  {
+    id: 38,
+    topic: 'Digital Detox',
+    question: 'Welche Krankheiten können durch digitale Belastung entstehen?',
+    options: [
+      'Depressionen',
+      'Herzinfarkte',
+      'Knochenbrüche',
+      'Angststörungen'
+    ],
+    correctIndices: [0, 3],
+    explanation:
+      'Digitale Belastung kann zu psychischen Erkrankungen wie Depressionen und Angststörungen führen.'
+  },
+  {
+    id: 39,
+    topic: 'Digital Detox',
+    question: 'Was bedeutet FOMO?',
+    options: [
+      'Focus On Media Only',
+      'Fear Of Missing Office',
+      'Fear Of Missing Out',
+      'Focus On Money Objectives'
+    ],
+    correctIndices: [2],
+    explanation:
+      'FOMO steht für "Fear Of Missing Out" und beschreibt die Angst, etwas zu verpassen.'
+  },
+  {
+    id: 40,
+    topic: 'Erfolg',
+    question: 'Welche Aussagen zur Definition und Bewertung von Erfolg sind richtig?',
+    options: [
+      'Erfolg ist ausschließlich ein Ergebnis zufälliger Ereignisse und hängt kaum mit eigener Leistung zusammen.',
+      'Erfolg wird häufig relativ bewertet – zum Beispiel durch Vergleiche mit anderen oder mit der eigenen früheren Leistung.',
+      'Der Big-Pond-Little-Fish-Effekt beschreibt, dass sich Erfolgsbewertungen je nach Leistungsniveau des Umfelds verändern können.',
+      'Erfolg lässt sich immer objektiv messen und ist unabhängig von sozialen oder kulturellen Einflüssen.'
+    ],
+    correctIndices: [1, 2],
+    explanation:
+      'Erfolg wird häufig relativ bewertet, und der Big-Pond-Little-Fish-Effekt beschreibt, dass sich Erfolgsbewertungen je nach Leistungsniveau des Umfelds verändern können.'
+  },
+  {
+    id: 41,
+    topic: 'Erfolg',
+    question: 'Welche Aussagen zur Beziehung zwischen Erfolg, Geld und Lebenszufriedenheit treffen zu?',
+    options: [
+      'Menschen gewöhnen sich schnell an Erfolge oder höhere Einkommen; dies wird als hedonistische Adaptation bezeichnet.',
+      'Ab einem bestimmten Einkommensniveau steigt das Wohlbefinden kaum noch weiter an.',
+      'Einkommen steigert die Lebenszufriedenheit unbegrenzt – je mehr, desto glücklicher.',
+      'Materieller Erfolg führt automatisch zu einem hohen Maß an dauerhaftem Glück.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Menschen gewöhnen sich schnell an Erfolge oder höhere Einkommen, und ab einem bestimmten Einkommensniveau steigt das Wohlbefinden kaum noch weiter an.'
+  },
+  {
+    id: 42,
+    topic: 'Erfolg',
+    question: 'Welche Aussagen zu psychologischen Faktoren des Erfolgs sind richtig?',
+    options: [
+      'Defensive Pessimisten setzen besonders hohe Erwartungen, um sich selbst zu motivieren.',
+      'Selbstsabotage (Self-Handicapping) dient oft dem Ego-Schutz, indem man Hindernisse schafft, um Misserfolge erklären zu können.',
+      'Beim Hochstapler-Syndrom schreiben Betroffene ihre Erfolge meist internen Faktoren wie Fähigkeit oder Anstrengung zu.',
+      'Ein dynamisches Mindset betrachtet Fähigkeiten als entwickelbar und sieht Fehler als Lernchance.'
+    ],
+    correctIndices: [1, 3],
+    explanation:
+      'Selbstsabotage dient oft dem Ego-Schutz, und ein dynamisches Mindset betrachtet Fähigkeiten als entwickelbar und sieht Fehler als Lernchance.'
+  },
+  {
+    id: 43,
+    topic: 'Verantwortung',
+    question: 'Welche Aussagen zum Begriff Verantwortung sind korrekt?',
+    options: [
+      'Verantwortung bedeutet, für das eigene Handeln und dessen Konsequenzen einzustehen.',
+      'Verantwortung beschreibt ausschließlich rechtliche Pflichten und Gesetze.',
+      'Verantwortung kann persönliche, moralische und gesellschaftliche Dimensionen haben.',
+      'Verantwortung ist nur relevant, wenn Fehler passieren.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Verantwortung bedeutet, für das eigene Handeln und dessen Konsequenzen einzustehen und kann persönliche, moralische und gesellschaftliche Dimensionen haben.'
+  },
+  {
+    id: 44,
+    topic: 'Verantwortung',
+    question: 'Welche Aspekte gehören zur digitalen Verantwortung in der Informatik?',
+    options: [
+      'Der verantwortungsvolle Umgang mit personenbezogenen Daten.',
+      'Die Berücksichtigung von Fairness und möglichen Verzerrungen (Bias) in Algorithmen.',
+      'Die vollständige Verantwortung liegt immer ausschließlich bei der verwendeten Software.',
+      'Digitale Verantwortung betrifft nur große Technologieunternehmen, nicht einzelne Entwickler.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Digitale Verantwortung umfasst den verantwortungsvollen Umgang mit personenbezogenen Daten und die Berücksichtigung von Fairness in Algorithmen.'
+  },
+  {
+    id: 45,
+    topic: 'Verantwortung',
+    question: 'Welche Aussagen zum ACM Code of Ethics treffen zu?',
+    options: [
+      'Der ACM Code of Ethics formuliert ethische Leitlinien für Informatiker.',
+      'Er fordert unter anderem Ehrlichkeit, Fairness und den Schutz von Nutzer.',
+      'Der ACM Code of Ethics ist ausschließlich für Studierende gedacht.',
+      'Der Code of Ethics ersetzt nationale Gesetze und rechtliche Vorgaben vollständig.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Der ACM Code of Ethics bietet Leitlinien für ethisches Verhalten in der Informatik und betont die Verantwortung gegenüber der Gesellschaft, den Nutzern und der Profession.'
+  },
+  {
+    id: 46,
+    topic: 'Altruismus',
+    question: 'Darf Altruismus nur das primäre Ziel des Wohlergehens verfolgen?',
+    options: [
+      'Ja, solange man primär auf das Wohlergehen fokussiert ist.',
+      'Nein, verfolgt man andere Ziele ist die Bedingung des uneigennutzes nicht gegeben.',
+      'Bedingt, es kommt auf die Ziele an.',
+      'Das Thema lässt zu viel Diskussionsspielraum um eine definitive Antwort zu geben.'
+    ],
+    correctIndices: [0, 2, 3],
+    explanation:
+      'Altruismus erfordert uneigennütziges Handeln, und das Verfolgen anderer Ziele kann diese Bedingung beeinträchtigen. Das Thema ist komplex und lässt Raum für Diskussionen.'
+  },
+  {
+    id: 47,
+    topic: 'Altruismus',
+    question: 'Aus welcher Motivation heraus entsteht Altruismus?',
+    options: [
+      'Pflichtgefühl',
+      'Eigennutz',
+      'Lust',
+      'Empathie'
+    ],
+    correctIndices: [3],
+    explanation:
+      'Altruismus entsteht aus Empathie, dem Mitgefühl und der Sorge um das Wohlergehen anderer.'
+  },
+  {
+    id: 48,
+    topic: 'Altruismus',
+    question: 'Welche Hormone werden durch soziale Zugehörigkeit ausgeschüttet?',
+    options: [
+      'Oxytocin',
+      'Dopamin',
+      'Testosteron',
+      'Östrogen'
+    ],
+    correctIndices: [0],
+    explanation:
+      'Oxytocin wird durch soziale Zugehörigkeit ausgeschüttet und fördert Bindung und Vertrauen.'
   }
 ]
 
