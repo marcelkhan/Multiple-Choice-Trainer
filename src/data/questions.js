@@ -82,6 +82,46 @@ const QUESTIONS = [
     correctIndices: [0, 1],
     explanation:
       'Achtsamkeit kann helfen, akute Stressreaktionen zu regulieren und Blackouts vorzubeugen, indem sie den Fokus auf den gegenwärtigen Moment lenkt.'
+  },
+  {
+    id: 7,
+    topic: 'Lernen',
+    question: 'Welche Aussagen zum Thema Lernen sind richtig?',
+    options: [
+      'Lernen ist ein Prozess, bei dem sich Wissen oder Verhalten durch Erfahrung und Übung dauerhaft verändert.',
+      'Lernen bedeutet ausschließlich das kurzfristige Auswendiglernen von Informationen.',
+      'Lernen ermöglicht es, Wissen später anzuwenden, z. B. in Prüfungen oder im Alltag.',
+      'Lernen findet nur in der Schule oder an der Universität statt.'
+    ],
+    correctIndices: [0, 2],
+    explanation:
+      'Lernen ist ein Prozess, bei dem sich Wissen oder Verhalten durch Erfahrung und Übung dauerhaft verändert.'
+  },
+  { id: 8,
+    topic: 'Lernen',
+    question: 'Welche Aussagen zum Gedächtnis treffen zu?' ,
+    options: [
+      'Das Gedächtnis arbeitet wie ein Netzwerk und nicht wie eine Festplatte.',
+      'Informationen werden besser gespeichert, wenn Bilder und Emotionen genutzt werden.',
+      'Das Gedächtnis speichert Informationen unabhängig von Struktur oder Wiederholung.',
+      'Nur der sprachlich-logische Kanal ist für effektives Lernen relevant.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Das Gedächtnis arbeitet wie ein Netzwerk, und Informationen werden besser gespeichert, wenn Bilder und Emotionen genutzt werden.'
+  },
+  { id: 9,
+    topic: 'Lernen',
+    question: 'Welche Aussagen zu Mnemotechniken sind richtig?',
+    options: [
+      'Mnemotechniken unterstützen das Lernen durch Bilder, Sprache und Struktur.',
+      'Die Loci-Methode ist eine visuelle Lerntechnik.',
+      'Mnemotechniken sind nur für Kinder geeignet.',
+      'Chunking bedeutet, Informationen möglichst unstrukturiert zu lernen.'
+    ],
+    correctIndices: [0, 1],
+    explanation:
+      'Mnemotechniken unterstützen das Lernen durch Bilder, Sprache und Struktur. Die Loci-Methode ist eine visuelle Lerntechnik.'
   }
 ]
 
