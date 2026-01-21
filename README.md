@@ -102,6 +102,10 @@ Für GitHub Pages, Netlify oder Vercel kannst du den `dist/`-Ordner als Build-Ou
 - React + Vite
 - CSS (Custom Properties)
 
+## Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz. Siehe [LICENSE](LICENSE).
+
 ## Hinweise zu Node.js
 
 Vite 7 benötigt Node.js **20.19+** oder **22.12+**. Wenn du eine ältere Version nutzt, bitte Node aktualisieren.
